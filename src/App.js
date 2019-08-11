@@ -1,21 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react'
 import Todos from './components/Todos';
 
-class App extends React.Component {
+class App extends Component {
   state = {
     todos: [{
       id: 1,
-      title: 'Hello item 1',
+      title: 'Complete React Crash Course',
       completed: false
     },
     {
       id: 2,
-      title: 'Hello item 2',
-      completed: false
+      title: 'Create a React project',
+      completed: true
     },
     {
       id: 3,
-      title: 'Hello item 3',
+      title: 'Learn React Native',
       completed: false
     }]
   }
